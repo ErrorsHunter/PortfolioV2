@@ -1,0 +1,142 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto', sans-serif;
+}
+
+p,
+a,
+button,
+label,
+small {
+  font-family: 'Poppins', sans-serif;
+}
+
+.br {
+  display: block;
+  margin-bottom: -8px;
+}
+
+.svgFlower {
+  position: absolute;
+  top: 32px;
+  bottom: 0;
+  right: 0;
+  transform: scale(1) translateX(0px);
+  left: -88px;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+.arrow {
+  transform: rotate(90deg);
+  cursor: pointer;
+}
+
+.arrow span {
+  display: block;
+  width: 16px;
+  height: 16px;
+  transform: rotate(315deg);
+  margin: -10px;
+  left: 55%;
+  position: absolute;
+  opacity: 1;
+  animation: animate 2s infinite;
+}
+
+.arrow span:nth-child(2) {
+  left: 55.5%;
+}
+
+.arrow span:nth-child(3) {
+  left: 56%;
+}
+
+@keyframes animate {
+  0% {
+      opacity: 0;
+      transform: rotate(315deg) translate(10px,10px);
+  }
+  0% {
+    opacity: 1;
+}
+  100% {
+      opacity: 0;
+      transform: rotate(315deg) translate(28px,28px);
+  }
+}
+
+/*
+  Title font: Cinzel
+  Paragraph font: Fauna One
+  */
+
+/*
+  Title font: Cardo
+  Paragraph font: Josefin Sans
+  */
+
+/*
+  Title font: Halant
+  Paragraph font: Nunito Sans
+  */
+
+/*
+  Title font: Arvo
+  Paragraph font: Lato
+  */
+
+/*
+  "Roboto Mono","DejaVu Sans Mono","Consolas",monospace
+  */
+
+
+/*
+  Title font: Philosopher
+  Paragraph font: Muli
+  */
+
+/*
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Cardo:wght@400;700&family=Cinzel:wght@400;500;600;700;800;900&family=Fauna+One&family=Halant:wght@300;400;500;600;700&family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Lato:wght@100;300;400;700;900&family=Mulish:wght@200;300;400;500;600;700;800;900;1000&family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800;6..12,900;6..12,1000&family=Philosopher:wght@400;700&display=swap" rel="stylesheet">
+*/
+
+/*
+  font-family: 'Arvo', serif;
+font-family: 'Cardo', serif;
+font-family: 'Cinzel', serif;
+font-family: 'Fauna One', serif;
+font-family: 'Halant', serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Mulish', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Philosopher', sans-serif;
+  */
